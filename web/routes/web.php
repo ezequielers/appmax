@@ -21,31 +21,6 @@ Route::group([
             Route::get('/logout', 'LoginController@logout')->name('logout');
         });
 
-//        Route::group([
-//            'prefix' => 'group',
-//            'as' => 'group.',
-//            'middleware' => ['CheckLogin', 'CheckPermission']
-//        ], function () {
-//            Route::get('/', 'GroupController@index')->name('list');
-//            Route::get('/edit/', 'GroupController@create')->name('create');
-//            Route::get('/edit/{id}', 'GroupController@edit')->name('edit');
-//            Route::post('/store', 'GroupController@store')->name('store');
-//            Route::post('/update/{id}', 'GroupController@update')->name('update');
-//            Route::get('/delete/{id}', 'GroupController@delete')->name('delete');
-//
-//            Route::group([
-//                'prefix' => '{id_group}/file', // => //asdfasdfasdf/group/{id}/file/.......
-//                'as' => 'file.' // => admin.group.file.list
-//            ], function () {
-//                Route::get('/', 'FileController@index')->name('list');
-//                Route::get('/edit/', 'FileController@create')->name('create');
-//                Route::get('/edit/{id}', 'FileController@edit')->name('edit');
-//                Route::post('/store', 'FileController@store')->name('store');
-//                Route::post('/update/{id}', 'FileController@update')->name('update');
-//                Route::get('/delete/{id}', 'FileController@delete')->name('delete');
-//            });
-//        });
-
         Route::group([
             'prefix' => 'users',
             'as' => 'users.',
