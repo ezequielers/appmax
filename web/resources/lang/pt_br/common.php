@@ -1,0 +1,80 @@
+<?php
+
+return [
+    'Welcome' => 'Bem vindo',
+    'AppMax Invenotry System' => 'AppMax Sistema para Controle de Estoque',
+    'Welcome to AppMax Invenotry System' => 'Bem vindo a AppMax Sistema para Controle de Estoque',
+    'My Profile' => 'Meu perfil',
+    'Account settings and more' => 'Configurações da conta e mais',
+    'Sign Out' => 'Sair',
+    'Action' => 'Ação',
+    'Submit' => 'Enviar',
+    'Cancel' => 'Cancelar',
+    'Edit' => 'Editar',
+    'Delete' => 'Deletar',
+    'No records found' => 'Nenhum registro encontrado',
+    'Back' => 'Voltar',
+    'Yes' => 'Sim',
+    'No' => 'Não',
+    'Password' => 'Senha',
+    'Attention' => 'Atenção',
+    'Email' => 'E-mail',
+    'Birthdate' => 'Data',
+    'Country' => 'País',
+    'State' => 'Estado',
+    'City' => 'Cidade',
+    'Hi' => 'Olá',
+    'MM/DD/YYYY' => 'DD/MM/AAAA',
+    'Print' => 'Imprimir',
+    'APPLICANT' => 'REQUERENTE',
+    'Admin' => 'Administrador',
+    'User' => 'Usuário',
+    'Gender' => 'Sexo',
+    'Female' => 'Feminino',
+    'Male' => 'Masculino',
+    'Certificate Authentication' => 'Autenticação de Certidão',
+    'Protocol Number' => 'Número de Matricula',
+    'search' => 'Buscar',
+    'autenticate' => 'Autenticar',
+    'Save and Print' => 'Enviar e Imprimir',
+    'Apply filter' => 'Aplicar Filtro',
+    'Status' => 'Situação',
+    'Active' => 'Ativo',
+    'Inactive' => 'Inativo',
+    'Are you sure you want to delete the :object?' => 'Tem certeza que deseja excluir o :object?',
+
+    /* Users */
+    'Users' => 'Usuários',
+    'Edit Users' => 'Editar Usuário',
+    'Add User' => 'Adicionar Usuário',
+    'Users Name' => 'Nome do Usuário',
+    'Type' => 'Tipo',
+    'This user cannot be removed' => 'Este usuário não pode ser removido',
+    /* End Users */
+
+    /* Products */
+    'Product' => 'Produto',
+    'Products' => 'Produtos',
+    'Decrement' => 'Decrementar',
+    'Edit Product' => 'Editar Produto',
+    'Add Product' => 'Adicionar Produto',
+    'Product Name' => 'Nome do Produto',
+    'Product SKU' => 'SKU do Produto',
+    'Product Description' => 'Descrição do Produto',
+    'Product Price' => 'Preço do Produto',
+    'Product Amount' => 'Quantidade do Produto',
+    'Product Origin' => 'Origem',
+    'api' => 'API',
+    'system' => 'Sistema',
+    'You tried decrease more products than are in stock.' => 'Voce tentou dar baixa em mais produtos do que existem em estoque.',
+    'Stock decreased successfully!' => 'Baixa do estoque realizada com sucesso!',
+    'An error occurred while trying to decrement product.' => 'Ocorreu um erro ao tentar decrementar produto.',
+    /* End Products */
+
+    /* Reports */
+    'Reports' => 'Relatórios',
+    'Daily' => 'Diário',
+    'Stock' => 'Estoque'
+    /* End Reports */
+
+];

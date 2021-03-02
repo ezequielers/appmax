@@ -1,0 +1,1 @@
+[02-May-2020 02:14:47 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 65015808 bytes) in /var/www/html/app/Http/Controllers/CertificateController.php on line 114
